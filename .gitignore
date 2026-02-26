@@ -5,7 +5,8 @@
 Icon
 ._*
 
-# LaTeX
+# LaTeX (generated files)
+*.tex
 *.aux
 *.bbl
 *.blg
@@ -29,8 +30,10 @@ Icon
 # Jupyter
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
+# Ignore images automatically extracted by nbconvert
+*_files/
 
 # Other generated
 *.pdf
-# (Assicurati di voler togliere i pdf dal git, di solito pesano o cambiano molto,
-# se vuoi salvarli commenta la riga di cui sopra)
+# (Make sure you want to exclude PDFs from git, they are usually heavy and change often.
+# If you want to track them, comment out the line above)
