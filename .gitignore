@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.bcf
+*.fls
+*.fdb_latexmk
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+*.run.xml
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Other generated
+*.pdf
+# (Assicurati di voler togliere i pdf dal git, di solito pesano o cambiano molto,
+# se vuoi salvarli commenta la riga di cui sopra)
