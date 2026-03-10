@@ -55,6 +55,8 @@ with open('master.tex', 'w', encoding='utf-8') as out:
                 if r'\end{document}' in line:
                     break
                 if body:
+                    # Ignore \maketitle and %matplotlib inline lines
+                    if '\\maketitle' not in line and 'matplotlib inline' not in line: 
                         out.write(line)
                 if r'\begin{document}' in line:
                     body = True
