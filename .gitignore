@@ -35,7 +35,4 @@ Icon
 
 # Other generated
 *.pdf
-# (Make sure you want to exclude PDFs from git, they are usually heavy and change often.
-# If you want to track them, comment out the line above)
-
 *.pyc
