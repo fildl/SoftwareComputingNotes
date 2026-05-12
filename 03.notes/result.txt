@@ -1,0 +1,2 @@
+the result of partial_1.txt
+the result of partial_2.txt
